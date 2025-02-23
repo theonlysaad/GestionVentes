@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="GestionVentesModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="categorie">
+          <Key>
+            <PropertyRef Name="numCategorie" />
+          </Key>
+          <Property Name="numCategorie" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nomCategorie" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="numDepartement" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="client">
+          <Key>
+            <PropertyRef Name="numClient" />
+          </Key>
+          <Property Name="numClient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nomClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="prenomClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="adresseClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="villeClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="paysClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="emailClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="teleClient" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="commande">
+          <Key>
+            <PropertyRef Name="numCommande" />
+          </Key>
+          <Property Name="numCommande" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="dateCommande" Type="datetime" Nullable="false" />
+          <Property Name="Etat" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="numClient" Type="int" Nullable="false" />
+          <Property Name="numFacture" Type="int" Nullable="false" />
+          <Property Name="numPaiement" Type="int" Nullable="false" />
+          <Property Name="Total_HT" Type="nvarchar" MaxLength="250" />
+          <Property Name="TVA" Type="nvarchar" MaxLength="20" />
+          <Property Name="Total_TTC" Type="nvarchar" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="departement">
+          <Key>
+            <PropertyRef Name="numDepartement" />
+          </Key>
+          <Property Name="numDepartement" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nomDepartement" Type="nvarchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <EntityType Name="detailsCommandes">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numCommande" Type="int" Nullable="false" />
+          <Property Name="numProduit" Type="int" Nullable="false" />
+          <Property Name="Prix" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="Remise" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="Total" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="nomProduit" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="qte" Type="int" />
+        </EntityType>
+        <EntityType Name="facture">
+          <Key>
+            <PropertyRef Name="numFacture" />
+          </Key>
+          <Property Name="numFacture" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="dateFacture" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="paiement">
+          <Key>
+            <PropertyRef Name="numPaiement" />
+          </Key>
+          <Property Name="numPaiement" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="datePaiement" Type="date" Nullable="false" />
+          <Property Name="montantPayé" Type="int" Nullable="false" />
+          <Property Name="montantàPayer" Type="int" Nullable="false" />
+          <Property Name="montantRestant" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="produit">
+          <Key>
+            <PropertyRef Name="numProduit" />
+          </Key>
+          <Property Name="numProduit" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nomProduit" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="qteStock" Type="int" Nullable="false" />
+          <Property Name="prixProduit" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="imageProduit" Type="image" Nullable="false" />
+          <Property Name="numCategorie" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Utilisateur">
+          <Key>
+            <PropertyRef Name="numUtilisateur" />
+          </Key>
+          <Property Name="numUtilisateur" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nomUtilisateur" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="mdpUtilisateur" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="role" Type="nvarchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="GestionVentesModel1StoreContainer">
+          <EntitySet Name="categorie" EntityType="Self.categorie" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="client" EntityType="Self.client" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="commande" EntityType="Self.commande" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="departement" EntityType="Self.departement" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="detailsCommandes" EntityType="Self.detailsCommandes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="facture" EntityType="Self.facture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="paiement" EntityType="Self.paiement" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="produit" EntityType="Self.produit" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Utilisateur" EntityType="Self.Utilisateur" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="GestionVentesModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="categorie">
+          <Key>
+            <PropertyRef Name="numCategorie" />
+          </Key>
+          <Property Name="numCategorie" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nomCategorie" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="numDepartement" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="client">
+          <Key>
+            <PropertyRef Name="numClient" />
+          </Key>
+          <Property Name="numClient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nomClient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="prenomClient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="adresseClient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="villeClient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="paysClient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="emailClient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="teleClient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="commande">
+          <Key>
+            <PropertyRef Name="numCommande" />
+          </Key>
+          <Property Name="numCommande" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="dateCommande" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="numClient" Type="Int32" Nullable="false" />
+          <Property Name="numFacture" Type="Int32" Nullable="false" />
+          <Property Name="numPaiement" Type="Int32" Nullable="false" />
+          <Property Name="Total_HT" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="TVA" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Total_TTC" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="departement">
+          <Key>
+            <PropertyRef Name="numDepartement" />
+          </Key>
+          <Property Name="numDepartement" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nomDepartement" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="detailsCommandes">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numCommande" Type="Int32" Nullable="false" />
+          <Property Name="numProduit" Type="Int32" Nullable="false" />
+          <Property Name="Prix" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Remise" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Total" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="nomProduit" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="qte" Type="Int32" />
+        </EntityType>
+        <EntityType Name="facture">
+          <Key>
+            <PropertyRef Name="numFacture" />
+          </Key>
+          <Property Name="numFacture" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="dateFacture" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityType Name="paiement">
+          <Key>
+            <PropertyRef Name="numPaiement" />
+          </Key>
+          <Property Name="numPaiement" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="datePaiement" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="montantPayé" Type="Int32" Nullable="false" />
+          <Property Name="montantàPayer" Type="Int32" Nullable="false" />
+          <Property Name="montantRestant" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="produit">
+          <Key>
+            <PropertyRef Name="numProduit" />
+          </Key>
+          <Property Name="numProduit" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nomProduit" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="qteStock" Type="Int32" Nullable="false" />
+          <Property Name="prixProduit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="imageProduit" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="numCategorie" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Utilisateur">
+          <Key>
+            <PropertyRef Name="numUtilisateur" />
+          </Key>
+          <Property Name="numUtilisateur" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nomUtilisateur" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="mdpUtilisateur" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="role" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="dbVentes" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="categorie" EntityType="Self.categorie" />
+          <EntitySet Name="client" EntityType="Self.client" />
+          <EntitySet Name="commande" EntityType="Self.commande" />
+          <EntitySet Name="departement" EntityType="Self.departement" />
+          <EntitySet Name="detailsCommandes" EntityType="Self.detailsCommandes" />
+          <EntitySet Name="facture" EntityType="Self.facture" />
+          <EntitySet Name="paiement" EntityType="Self.paiement" />
+          <EntitySet Name="produit" EntityType="Self.produit" />
+          <EntitySet Name="Utilisateur" EntityType="Self.Utilisateur" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="GestionVentesModel1StoreContainer" CdmEntityContainer="dbVentes">
+          <EntitySetMapping Name="categorie">
+            <EntityTypeMapping TypeName="GestionVentesModel1.categorie">
+              <MappingFragment StoreEntitySet="categorie">
+                <ScalarProperty Name="numCategorie" ColumnName="numCategorie" />
+                <ScalarProperty Name="nomCategorie" ColumnName="nomCategorie" />
+                <ScalarProperty Name="numDepartement" ColumnName="numDepartement" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="client">
+            <EntityTypeMapping TypeName="GestionVentesModel1.client">
+              <MappingFragment StoreEntitySet="client">
+                <ScalarProperty Name="numClient" ColumnName="numClient" />
+                <ScalarProperty Name="nomClient" ColumnName="nomClient" />
+                <ScalarProperty Name="prenomClient" ColumnName="prenomClient" />
+                <ScalarProperty Name="adresseClient" ColumnName="adresseClient" />
+                <ScalarProperty Name="villeClient" ColumnName="villeClient" />
+                <ScalarProperty Name="paysClient" ColumnName="paysClient" />
+                <ScalarProperty Name="emailClient" ColumnName="emailClient" />
+                <ScalarProperty Name="teleClient" ColumnName="teleClient" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="commande">
+            <EntityTypeMapping TypeName="GestionVentesModel1.commande">
+              <MappingFragment StoreEntitySet="commande">
+                <ScalarProperty Name="numCommande" ColumnName="numCommande" />
+                <ScalarProperty Name="dateCommande" ColumnName="dateCommande" />
+                <ScalarProperty Name="Etat" ColumnName="Etat" />
+                <ScalarProperty Name="numClient" ColumnName="numClient" />
+                <ScalarProperty Name="numFacture" ColumnName="numFacture" />
+                <ScalarProperty Name="numPaiement" ColumnName="numPaiement" />
+                <ScalarProperty Name="Total_HT" ColumnName="Total_HT" />
+                <ScalarProperty Name="TVA" ColumnName="TVA" />
+                <ScalarProperty Name="Total_TTC" ColumnName="Total_TTC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="departement">
+            <EntityTypeMapping TypeName="GestionVentesModel1.departement">
+              <MappingFragment StoreEntitySet="departement">
+                <ScalarProperty Name="numDepartement" ColumnName="numDepartement" />
+                <ScalarProperty Name="nomDepartement" ColumnName="nomDepartement" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="detailsCommandes">
+            <EntityTypeMapping TypeName="GestionVentesModel1.detailsCommandes">
+              <MappingFragment StoreEntitySet="detailsCommandes">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="numCommande" ColumnName="numCommande" />
+                <ScalarProperty Name="numProduit" ColumnName="numProduit" />
+                <ScalarProperty Name="Prix" ColumnName="Prix" />
+                <ScalarProperty Name="Remise" ColumnName="Remise" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+                <ScalarProperty Name="nomProduit" ColumnName="nomProduit" />
+                <ScalarProperty Name="qte" ColumnName="qte" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="facture">
+            <EntityTypeMapping TypeName="GestionVentesModel1.facture">
+              <MappingFragment StoreEntitySet="facture">
+                <ScalarProperty Name="numFacture" ColumnName="numFacture" />
+                <ScalarProperty Name="dateFacture" ColumnName="dateFacture" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="paiement">
+            <EntityTypeMapping TypeName="GestionVentesModel1.paiement">
+              <MappingFragment StoreEntitySet="paiement">
+                <ScalarProperty Name="numPaiement" ColumnName="numPaiement" />
+                <ScalarProperty Name="datePaiement" ColumnName="datePaiement" />
+                <ScalarProperty Name="montantPayé" ColumnName="montantPayé" />
+                <ScalarProperty Name="montantàPayer" ColumnName="montantàPayer" />
+                <ScalarProperty Name="montantRestant" ColumnName="montantRestant" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="produit">
+            <EntityTypeMapping TypeName="GestionVentesModel1.produit">
+              <MappingFragment StoreEntitySet="produit">
+                <ScalarProperty Name="numProduit" ColumnName="numProduit" />
+                <ScalarProperty Name="nomProduit" ColumnName="nomProduit" />
+                <ScalarProperty Name="qteStock" ColumnName="qteStock" />
+                <ScalarProperty Name="prixProduit" ColumnName="prixProduit" />
+                <ScalarProperty Name="imageProduit" ColumnName="imageProduit" />
+                <ScalarProperty Name="numCategorie" ColumnName="numCategorie" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Utilisateur">
+            <EntityTypeMapping TypeName="GestionVentesModel1.Utilisateur">
+              <MappingFragment StoreEntitySet="Utilisateur">
+                <ScalarProperty Name="numUtilisateur" ColumnName="numUtilisateur" />
+                <ScalarProperty Name="nomUtilisateur" ColumnName="nomUtilisateur" />
+                <ScalarProperty Name="mdpUtilisateur" ColumnName="mdpUtilisateur" />
+                <ScalarProperty Name="role" ColumnName="role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Aucun" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

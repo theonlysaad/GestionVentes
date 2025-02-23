@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1036c40f22d94ef589db7272ef0ef695" Name="Diagram1">
+        <EntityTypeShape EntityType="GestionVentesModel.categorie" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" FillColor="ActiveCaption" />
+        <EntityTypeShape EntityType="GestionVentesModel.client" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" FillColor="ActiveCaption" />
+        <EntityTypeShape EntityType="GestionVentesModel.commande" Width="1.5" PointX="3" PointY="1" IsExpanded="true" FillColor="ActiveCaption" />
+        <EntityTypeShape EntityType="GestionVentesModel.departement" Width="1.5" PointX="1.5" PointY="14" IsExpanded="true" FillColor="ActiveCaption" />
+        <EntityTypeShape EntityType="GestionVentesModel.detailsCommandes" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" FillColor="ActiveCaption" />
+        <EntityTypeShape EntityType="GestionVentesModel.facture" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" FillColor="ActiveCaption" />
+        <EntityTypeShape EntityType="GestionVentesModel.paiement" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" FillColor="ActiveCaption" />
+        <EntityTypeShape EntityType="GestionVentesModel.produit" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" FillColor="ActiveCaption" />
+        <EntityTypeShape EntityType="GestionVentesModel.Utilisateur" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" FillColor="ActiveCaption" />
+        <AssociationConnector Association="GestionVentesModel.FK_Categorie_Departement" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionVentesModel.FK_Produit_Categorie" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionVentesModel.FK_Commande_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionVentesModel.FK_Commande_Facture" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionVentesModel.FK_Commande_Paiement" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionVentesModel.FK_detailsCommandes_Commande" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionVentesModel.FK_detailsCommandes_Produit" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

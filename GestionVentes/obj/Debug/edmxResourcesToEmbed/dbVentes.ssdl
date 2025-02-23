@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GestionVentesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="categorie">
+    <Key>
+      <PropertyRef Name="numCategorie" />
+    </Key>
+    <Property Name="numCategorie" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomCategorie" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="numDepartement" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="numClient" />
+    </Key>
+    <Property Name="numClient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="prenomClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="adresseClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="villeClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="paysClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="emailClient" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="teleClient" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="commande">
+    <Key>
+      <PropertyRef Name="numCommande" />
+    </Key>
+    <Property Name="numCommande" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dateCommande" Type="datetime" Nullable="false" />
+    <Property Name="Etat" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="numClient" Type="int" Nullable="false" />
+    <Property Name="numFacture" Type="int" Nullable="false" />
+    <Property Name="numPaiement" Type="int" Nullable="false" />
+    <Property Name="Total_HT" Type="nvarchar" MaxLength="250" />
+    <Property Name="TVA" Type="nvarchar" MaxLength="20" />
+    <Property Name="Total_TTC" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="departement">
+    <Key>
+      <PropertyRef Name="numDepartement" />
+    </Key>
+    <Property Name="numDepartement" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomDepartement" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="detailsCommandes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numCommande" Type="int" Nullable="false" />
+    <Property Name="numProduit" Type="int" Nullable="false" />
+    <Property Name="Prix" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Remise" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Total" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="nomProduit" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="qte" Type="int" />
+  </EntityType>
+  <EntityType Name="facture">
+    <Key>
+      <PropertyRef Name="numFacture" />
+    </Key>
+    <Property Name="numFacture" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dateFacture" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="paiement">
+    <Key>
+      <PropertyRef Name="numPaiement" />
+    </Key>
+    <Property Name="numPaiement" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="datePaiement" Type="date" Nullable="false" />
+    <Property Name="montantPayé" Type="int" Nullable="false" />
+    <Property Name="montantàPayer" Type="int" Nullable="false" />
+    <Property Name="montantRestant" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="produit">
+    <Key>
+      <PropertyRef Name="numProduit" />
+    </Key>
+    <Property Name="numProduit" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomProduit" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="qteStock" Type="int" Nullable="false" />
+    <Property Name="prixProduit" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="imageProduit" Type="image" Nullable="false" />
+    <Property Name="numCategorie" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Utilisateur">
+    <Key>
+      <PropertyRef Name="numUtilisateur" />
+    </Key>
+    <Property Name="numUtilisateur" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomUtilisateur" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="mdpUtilisateur" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="role" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Categorie_Departement">
+    <End Role="departement" Type="Self.departement" Multiplicity="1" />
+    <End Role="categorie" Type="Self.categorie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="departement">
+        <PropertyRef Name="numDepartement" />
+      </Principal>
+      <Dependent Role="categorie">
+        <PropertyRef Name="numDepartement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Commande_Client">
+    <End Role="client" Type="Self.client" Multiplicity="1" />
+    <End Role="commande" Type="Self.commande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="numClient" />
+      </Principal>
+      <Dependent Role="commande">
+        <PropertyRef Name="numClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Commande_Facture">
+    <End Role="facture" Type="Self.facture" Multiplicity="1" />
+    <End Role="commande" Type="Self.commande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="facture">
+        <PropertyRef Name="numFacture" />
+      </Principal>
+      <Dependent Role="commande">
+        <PropertyRef Name="numFacture" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Commande_Paiement">
+    <End Role="paiement" Type="Self.paiement" Multiplicity="1" />
+    <End Role="commande" Type="Self.commande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="paiement">
+        <PropertyRef Name="numPaiement" />
+      </Principal>
+      <Dependent Role="commande">
+        <PropertyRef Name="numPaiement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detailsCommandes_Commande">
+    <End Role="commande" Type="Self.commande" Multiplicity="1" />
+    <End Role="detailsCommandes" Type="Self.detailsCommandes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="commande">
+        <PropertyRef Name="numCommande" />
+      </Principal>
+      <Dependent Role="detailsCommandes">
+        <PropertyRef Name="numCommande" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detailsCommandes_Produit">
+    <End Role="produit" Type="Self.produit" Multiplicity="1" />
+    <End Role="detailsCommandes" Type="Self.detailsCommandes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="produit">
+        <PropertyRef Name="numProduit" />
+      </Principal>
+      <Dependent Role="detailsCommandes">
+        <PropertyRef Name="numProduit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produit_Categorie">
+    <End Role="categorie" Type="Self.categorie" Multiplicity="1" />
+    <End Role="produit" Type="Self.produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categorie">
+        <PropertyRef Name="numCategorie" />
+      </Principal>
+      <Dependent Role="produit">
+        <PropertyRef Name="numCategorie" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GestionVentesModelStoreContainer">
+    <EntitySet Name="categorie" EntityType="Self.categorie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="client" EntityType="Self.client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="commande" EntityType="Self.commande" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="departement" EntityType="Self.departement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="detailsCommandes" EntityType="Self.detailsCommandes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="facture" EntityType="Self.facture" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="paiement" EntityType="Self.paiement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="produit" EntityType="Self.produit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Utilisateur" EntityType="Self.Utilisateur" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Categorie_Departement" Association="Self.FK_Categorie_Departement">
+      <End Role="departement" EntitySet="departement" />
+      <End Role="categorie" EntitySet="categorie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Commande_Client" Association="Self.FK_Commande_Client">
+      <End Role="client" EntitySet="client" />
+      <End Role="commande" EntitySet="commande" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Commande_Facture" Association="Self.FK_Commande_Facture">
+      <End Role="facture" EntitySet="facture" />
+      <End Role="commande" EntitySet="commande" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Commande_Paiement" Association="Self.FK_Commande_Paiement">
+      <End Role="paiement" EntitySet="paiement" />
+      <End Role="commande" EntitySet="commande" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detailsCommandes_Commande" Association="Self.FK_detailsCommandes_Commande">
+      <End Role="commande" EntitySet="commande" />
+      <End Role="detailsCommandes" EntitySet="detailsCommandes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detailsCommandes_Produit" Association="Self.FK_detailsCommandes_Produit">
+      <End Role="produit" EntitySet="produit" />
+      <End Role="detailsCommandes" EntitySet="detailsCommandes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produit_Categorie" Association="Self.FK_Produit_Categorie">
+      <End Role="categorie" EntitySet="categorie" />
+      <End Role="produit" EntitySet="produit" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

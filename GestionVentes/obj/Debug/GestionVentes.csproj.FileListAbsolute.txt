@@ -1,0 +1,428 @@
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.SuggestedBindingRedirects.cache
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_MENU.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.Properties.Resources.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\GestionVentes.exe.config
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\GestionVentes.exe
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\GestionVentes.pdb
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.xml
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.CopyComplete
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.exe
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.pdb
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Connexion.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_Liste_Client.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Client.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_Liste_Produit.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajouter_Modifie_Produit.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Photo_Produit.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EnvDTE.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\stdole.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.RAP.FRM_RAPPORT.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Categorie.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Catégorie.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Departement.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Departement.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Commande.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Details_Commande.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Client_Commande.resources
+C:\Users\MSI\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Produit_Commande.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\GestionVentes.exe.config
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\GestionVentes.exe
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\GestionVentes.pdb
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EnvDTE.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\stdole.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.xml
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.AssemblyReference.cache
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajouter_Modifie_Produit.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Categorie.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Client.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Departement.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Client_Commande.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Connexion.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Details_Commande.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_MENU.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Photo_Produit.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Produit_Commande.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Catégorie.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_Liste_Client.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Commande.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Departement.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_Liste_Produit.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.Properties.Resources.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.RAP.FRM_RAPPORT.resources
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.GenerateResource.cache
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.CoreCompileInputs.cache
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.CopyComplete
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.exe
+C:\Users\Bennaghmouch\Desktop\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.pdb
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.AssemblyReference.cache
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.SuggestedBindingRedirects.cache
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajouter_Modifie_Produit.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Categorie.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Client.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Departement.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Client_Commande.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Connexion.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Details_Commande.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_MENU.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Photo_Produit.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Produit_Commande.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Catégorie.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_Liste_Client.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Commande.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Departement.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_Liste_Produit.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.Properties.Resources.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.RAP.FRM_RAPPORT.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.GenerateResource.cache
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.CoreCompileInputs.cache
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.exe
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.pdb
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\GestionVentes.exe.config
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\GestionVentes.exe
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\GestionVentes.pdb
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EnvDTE.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\stdole.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.xml
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.CopyComplete
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.AssemblyReference.cache
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.SuggestedBindingRedirects.cache
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajouter_Modifie_Produit.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Categorie.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Client.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Ajoute_Modifier_Departement.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Client_Commande.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Connexion.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Details_Commande.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_MENU.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Photo_Produit.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.FRM_Produit_Commande.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Catégorie.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_Liste_Client.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Commande.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_LISTE_Departement.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.PL.USER_Liste_Produit.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.Properties.Resources.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.RAP.FRM_RAPPORT.resources
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.GenerateResource.cache
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.CoreCompileInputs.cache
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.exe
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.pdb
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\GestionVentes.exe.config
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\GestionVentes.exe
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\GestionVentes.pdb
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\EntityFramework.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\EnvDTE.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\stdole.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\EntityFramework.xml
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\media\OneDrive\Bureau\GestionVentes - Copie\GestionVentes\GestionVentes\obj\Debug\GestionVentes.csproj.CopyComplete

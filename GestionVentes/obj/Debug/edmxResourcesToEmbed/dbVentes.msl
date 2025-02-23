@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GestionVentesModelStoreContainer" CdmEntityContainer="dbVente">
+    <EntitySetMapping Name="categorie">
+      <EntityTypeMapping TypeName="GestionVentesModel.categorie">
+        <MappingFragment StoreEntitySet="categorie">
+          <ScalarProperty Name="numCategorie" ColumnName="numCategorie" />
+          <ScalarProperty Name="nomCategorie" ColumnName="nomCategorie" />
+          <ScalarProperty Name="numDepartement" ColumnName="numDepartement" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="client">
+      <EntityTypeMapping TypeName="GestionVentesModel.client">
+        <MappingFragment StoreEntitySet="client">
+          <ScalarProperty Name="numClient" ColumnName="numClient" />
+          <ScalarProperty Name="nomClient" ColumnName="nomClient" />
+          <ScalarProperty Name="prenomClient" ColumnName="prenomClient" />
+          <ScalarProperty Name="adresseClient" ColumnName="adresseClient" />
+          <ScalarProperty Name="villeClient" ColumnName="villeClient" />
+          <ScalarProperty Name="paysClient" ColumnName="paysClient" />
+          <ScalarProperty Name="emailClient" ColumnName="emailClient" />
+          <ScalarProperty Name="teleClient" ColumnName="teleClient" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="commande">
+      <EntityTypeMapping TypeName="GestionVentesModel.commande">
+        <MappingFragment StoreEntitySet="commande">
+          <ScalarProperty Name="numCommande" ColumnName="numCommande" />
+          <ScalarProperty Name="dateCommande" ColumnName="dateCommande" />
+          <ScalarProperty Name="Etat" ColumnName="Etat" />
+          <ScalarProperty Name="numClient" ColumnName="numClient" />
+          <ScalarProperty Name="numFacture" ColumnName="numFacture" />
+          <ScalarProperty Name="numPaiement" ColumnName="numPaiement" />
+          <ScalarProperty Name="Total_HT" ColumnName="Total_HT" />
+          <ScalarProperty Name="TVA" ColumnName="TVA" />
+          <ScalarProperty Name="Total_TTC" ColumnName="Total_TTC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="departement">
+      <EntityTypeMapping TypeName="GestionVentesModel.departement">
+        <MappingFragment StoreEntitySet="departement">
+          <ScalarProperty Name="numDepartement" ColumnName="numDepartement" />
+          <ScalarProperty Name="nomDepartement" ColumnName="nomDepartement" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="detailsCommandes">
+      <EntityTypeMapping TypeName="GestionVentesModel.detailsCommandes">
+        <MappingFragment StoreEntitySet="detailsCommandes">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numCommande" ColumnName="numCommande" />
+          <ScalarProperty Name="numProduit" ColumnName="numProduit" />
+          <ScalarProperty Name="Prix" ColumnName="Prix" />
+          <ScalarProperty Name="Remise" ColumnName="Remise" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="nomProduit" ColumnName="nomProduit" />
+          <ScalarProperty Name="qte" ColumnName="qte" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="facture">
+      <EntityTypeMapping TypeName="GestionVentesModel.facture">
+        <MappingFragment StoreEntitySet="facture">
+          <ScalarProperty Name="numFacture" ColumnName="numFacture" />
+          <ScalarProperty Name="dateFacture" ColumnName="dateFacture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="paiement">
+      <EntityTypeMapping TypeName="GestionVentesModel.paiement">
+        <MappingFragment StoreEntitySet="paiement">
+          <ScalarProperty Name="numPaiement" ColumnName="numPaiement" />
+          <ScalarProperty Name="datePaiement" ColumnName="datePaiement" />
+          <ScalarProperty Name="montantPayé" ColumnName="montantPayé" />
+          <ScalarProperty Name="montantàPayer" ColumnName="montantàPayer" />
+          <ScalarProperty Name="montantRestant" ColumnName="montantRestant" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="produit">
+      <EntityTypeMapping TypeName="GestionVentesModel.produit">
+        <MappingFragment StoreEntitySet="produit">
+          <ScalarProperty Name="numProduit" ColumnName="numProduit" />
+          <ScalarProperty Name="nomProduit" ColumnName="nomProduit" />
+          <ScalarProperty Name="qteStock" ColumnName="qteStock" />
+          <ScalarProperty Name="prixProduit" ColumnName="prixProduit" />
+          <ScalarProperty Name="imageProduit" ColumnName="imageProduit" />
+          <ScalarProperty Name="numCategorie" ColumnName="numCategorie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Utilisateur">
+      <EntityTypeMapping TypeName="GestionVentesModel.Utilisateur">
+        <MappingFragment StoreEntitySet="Utilisateur">
+          <ScalarProperty Name="numUtilisateur" ColumnName="numUtilisateur" />
+          <ScalarProperty Name="nomUtilisateur" ColumnName="nomUtilisateur" />
+          <ScalarProperty Name="mdpUtilisateur" ColumnName="mdpUtilisateur" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

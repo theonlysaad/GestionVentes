@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B5AFF5C6-BB37-4A15-BBC7-41545577EC1B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GestionVentes</RootNamespace>
+    <AssemblyName>GestionVentes</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1537.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1537.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1537.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1537.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1537.0\lib\net40\Microsoft.ReportViewer.WebDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1537.0\lib\net40\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\CLS_Categorie.cs" />
+    <Compile Include="BL\CLS_Client.cs" />
+    <Compile Include="BL\CLS_Commande_DetailCommande.cs" />
+    <Compile Include="BL\CLS_Connexion.cs" />
+    <Compile Include="BL\CLS_Departement.cs" />
+    <Compile Include="BL\CLS_Produit.cs" />
+    <Compile Include="BL\D_Commande.cs" />
+    <Compile Include="categorie.cs">
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="client.cs">
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="commande.cs">
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dbventes1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbventes1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dbventes1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dbventes1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbventes1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="departement.cs">
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="detailsCommandes.cs">
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="facture.cs">
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GestionVentesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestionVentesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GestionVentesDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestionVentesDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="paiement.cs">
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Ajoute_Modifier_Categorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Ajoute_Modifier_Categorie.Designer.cs">
+      <DependentUpon>FRM_Ajoute_Modifier_Categorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Ajouter_Modifie_Produit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Ajouter_Modifie_Produit.Designer.cs">
+      <DependentUpon>FRM_Ajouter_Modifie_Produit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Ajoute_Modifier_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Ajoute_Modifier_Client.Designer.cs">
+      <DependentUpon>FRM_Ajoute_Modifier_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Ajoute_Modifier_Departement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Ajoute_Modifier_Departement.Designer.cs">
+      <DependentUpon>FRM_Ajoute_Modifier_Departement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Client_Commande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Client_Commande.Designer.cs">
+      <DependentUpon>FRM_Client_Commande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Connexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Connexion.Designer.cs">
+      <DependentUpon>FRM_Connexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Details_Commande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Details_Commande.Designer.cs">
+      <DependentUpon>FRM_Details_Commande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_MENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_MENU.Designer.cs">
+      <DependentUpon>FRM_MENU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Photo_Produit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Photo_Produit.Designer.cs">
+      <DependentUpon>FRM_Photo_Produit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Produit_Commande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Produit_Commande.Designer.cs">
+      <DependentUpon>FRM_Produit_Commande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\USER_LISTE_Catégorie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\USER_LISTE_Catégorie.Designer.cs">
+      <DependentUpon>USER_LISTE_Catégorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\USER_Liste_Client.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\USER_Liste_Client.Designer.cs">
+      <DependentUpon>USER_Liste_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\USER_LISTE_Commande.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\USER_LISTE_Commande.Designer.cs">
+      <DependentUpon>USER_LISTE_Commande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\USER_LISTE_Departement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\USER_LISTE_Departement.Designer.cs">
+      <DependentUpon>USER_LISTE_Departement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\USER_Liste_Produit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\USER_Liste_Produit.Designer.cs">
+      <DependentUpon>USER_Liste_Produit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="produit.cs">
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RAP\FRM_RAPPORT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAP\FRM_RAPPORT.Designer.cs">
+      <DependentUpon>FRM_RAPPORT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Utilisateur.cs">
+      <DependentUpon>dbventes1.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PL\FRM_Ajouter_Modifie_Produit.resx">
+      <DependentUpon>FRM_Ajouter_Modifie_Produit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Ajoute_Modifier_Categorie.resx">
+      <DependentUpon>FRM_Ajoute_Modifier_Categorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Ajoute_Modifier_Client.resx">
+      <DependentUpon>FRM_Ajoute_Modifier_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Ajoute_Modifier_Departement.resx">
+      <DependentUpon>FRM_Ajoute_Modifier_Departement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Client_Commande.resx">
+      <DependentUpon>FRM_Client_Commande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Connexion.resx">
+      <DependentUpon>FRM_Connexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Details_Commande.resx">
+      <DependentUpon>FRM_Details_Commande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_MENU.resx">
+      <DependentUpon>FRM_MENU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Photo_Produit.resx">
+      <DependentUpon>FRM_Photo_Produit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Produit_Commande.resx">
+      <DependentUpon>FRM_Produit_Commande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\USER_LISTE_Catégorie.resx">
+      <DependentUpon>USER_LISTE_Catégorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\USER_Liste_Client.resx">
+      <DependentUpon>USER_Liste_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\USER_LISTE_Commande.resx">
+      <DependentUpon>USER_LISTE_Commande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\USER_LISTE_Departement.resx">
+      <DependentUpon>USER_LISTE_Departement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\USER_Liste_Produit.resx">
+      <DependentUpon>USER_Liste_Produit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RAP\FRM_RAPPORT.resx">
+      <DependentUpon>FRM_RAPPORT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAP\RPT_LISTE_PRODUIT.rdlc" />
+    <EmbeddedResource Include="RAP\RPT_Produit.rdlc" />
+    <EntityDeploy Include="dbventes1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbventes1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="dbventes1.edmx.diagram">
+      <DependentUpon>dbventes1.edmx</DependentUpon>
+    </None>
+    <None Include="GestionVentesDataSet.xsc">
+      <DependentUpon>GestionVentesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GestionVentesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GestionVentesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GestionVentesDataSet.xss">
+      <DependentUpon>GestionVentesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GestionVentesDataSet1.xsc">
+      <DependentUpon>GestionVentesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GestionVentesDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GestionVentesDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GestionVentesDataSet1.xss">
+      <DependentUpon>GestionVentesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\GestionVentes.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\GestionVentes.Properties.Settings.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Country_321.png" />
+    <None Include="Resources\Phone_321.png" />
+    <None Include="Resources\login_322.png" />
+    <None Include="Resources\login_321.png" />
+    <None Include="Resources\Close-2-icon1.png" />
+    <None Include="Resources\Recycle-iconaaa1.png" />
+    <None Include="Resources\Actions-list-add-icon1.png" />
+    <None Include="Resources\photo %281%29.png" />
+    <None Include="Resources\photo2.png" />
+    <None Include="Resources\photo1.png" />
+    <None Include="Resources\photo.png" />
+    <None Include="Resources\Menu_321.png" />
+    <None Include="Resources\Categorie1.png" />
+    <None Include="Resources\ville_32.png" />
+    <None Include="Resources\Subtract_32.png" />
+    <None Include="Resources\SM-T580NZKAXAR-02-71016.jpg" />
+    <None Include="Resources\Shutdown_32.png" />
+    <None Include="Resources\shopping-icon.png" />
+    <None Include="Resources\shop-cart-add-icon.png" />
+    <None Include="Resources\Settings_32.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\samsung s8.jpg" />
+    <None Include="Resources\samsung s8 plus.png" />
+    <None Include="Resources\samsung s7.jpg" />
+    <None Include="Resources\samsung s5.jpg" />
+    <None Include="Resources\Refresh-icon.png" />
+    <None Include="Resources\Recycle-iconaaa.png" />
+    <None Include="Resources\Quantie_32.png" />
+    <None Include="Resources\product_32.png" />
+    <None Include="Resources\prix_32.png" />
+    <None Include="Resources\print-icon.png" />
+    <None Include="Resources\Pictures-icon.png" />
+    <None Include="Resources\Phone_32.png" />
+    <None Include="Resources\Pdpkeyfeature-sm-g920azdaatt-600x600-C1-062016.jpg" />
+    <None Include="Resources\pctoshiba.jpg" />
+    <None Include="Resources\pcmsi.jpeg" />
+    <None Include="Resources\pc acer.jpg" />
+    <None Include="Resources\Office-Client-Male-Light-icon.png" />
+    <None Include="Resources\Motdepasse_32.png" />
+    <None Include="Resources\Menu_32.png" />
+    <None Include="Resources\MACBOOKPRO.jpg" />
+    <None Include="Resources\login_32.png" />
+    <None Include="Resources\k.png" />
+    <None Include="Resources\iphonex.jpg" />
+    <None Include="Resources\iphone7plus.png" />
+    <None Include="Resources\iphone4c.jpg" />
+    <None Include="Resources\iphone s6plus.jpg" />
+    <None Include="Resources\iphone 6s.jpg" />
+    <None Include="Resources\iphone 6plus.jpg" />
+    <None Include="Resources\iphone 6.jpg" />
+    <None Include="Resources\iphone 5s.jpg" />
+    <None Include="Resources\iphone 5.jpg" />
+    <None Include="Resources\iphone 4s.jpg" />
+    <None Include="Resources\iphone 4.jpg" />
+    <None Include="Resources\Imprimer.png" />
+    <None Include="Resources\ImpriCanon.jpg" />
+    <None Include="Resources\Gmail_32.png" />
+    <None Include="Resources\Excel-icon.png" />
+    <None Include="Resources\Epson.jpg" />
+    <None Include="Resources\Download.png" />
+    <None Include="Resources\dell.jpg" />
+    <None Include="Resources\Deconnecte.png" />
+    <None Include="Resources\deconnect.png" />
+    <None Include="Resources\customer-service-icon.png" />
+    <None Include="Resources\customer-people.jpg" />
+    <None Include="Resources\Country_32.png" />
+    <None Include="Resources\Copier.png" />
+    <None Include="Resources\connectmode.png" />
+    <None Include="Resources\Connected_16.png" />
+    <None Include="Resources\Close-2-icon.png" />
+    <None Include="Resources\Categorize_32.png" />
+    <None Include="Resources\Categorie.png" />
+    <None Include="Resources\c05477854.png" />
+    <None Include="Resources\Button-Delete-icon.png" />
+    <None Include="Resources\Apple-iPhone-7-128-Go-4-7-Rouge.jpg" />
+    <None Include="Resources\adresse.png" />
+    <None Include="Resources\Actions-list-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Categorie2.png" />
+    <None Include="Resources\Categorize_322.png" />
+    <None Include="Resources\search1.png" />
+    <None Include="Resources\print-icon1.png" />
+    <None Include="Resources\Recycle-iconaaa2.png" />
+    <None Include="Resources\Deconnecte1.png" />
+    <None Include="Resources\k1.png" />
+    <Content Include="dbventes1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbventes1.edmx</DependentUpon>
+      <LastGenOutput>dbventes1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="dbventes1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbventes1.edmx</DependentUpon>
+      <LastGenOutput>dbventes1.cs</LastGenOutput>
+    </Content>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\prix_321.png" />
+    <None Include="Resources\Quantie_321.png" />
+    <None Include="Resources\product_321.png" />
+    <None Include="Resources\Excel-icon1.png" />
+    <None Include="Resources\Imprimer1.png" />
+    <None Include="Resources\Pictures-icon1.png" />
+    <None Include="Resources\Categorize_321.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
